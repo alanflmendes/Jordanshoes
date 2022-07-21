@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family:'montserrat';
+    background: #ebe9ea;
+}
+
+.rodape-topo {
+    display: flex;
+    align-items: center;
+    background: #181818;
+    height: 100px;
+}
+
+.rodape-topo p {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.titulo {
+    display: flex;
+    background: #f9f9f9;
+    height: 100px;
+    align-items: center;
+    font-family: 'montserrat-bold';
+    font-size: 30px;
+}
+
+.titulo h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner-img{
+    position: absolute;
+    width: 100vw;
+    background-size: contain;
+    height: 50rem;
+    opacity: 0.6;
+}
+
+header {
+    background: black;
+    width: 100%;
+    height: 62.5rem;
+}
+
+.banner-texto{
+    position: relative;
+    width: 100%;
+}
+
+.banner-texto h2 {
+    font-family: 'montserrat-bold';
+    font-size: 5rem;
+    margin-left: 70px;
+    color: #fff;
+}
+
+.banner-texto p{
+    margin-left: 70px;
+    font-size: 2.5rem;
+    color: #fff;
+    width: 40%;
+    line-height: 4rem;
+
+}
+
+article, h3, p{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 3rem; 
+}
+
+.box img{
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    background: blue;
+    margin-bottom: 80px;
+}
+
+
